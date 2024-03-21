@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap");
+.navbar {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 999999;
+  backdrop-filter: blur(5px);
+  font-family: "Life Savers", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    display: none;
+  }
+}
+
+.linksHolder {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 10px;
+  margin-left: 70px;
+  height: 50px;
+}
+
+.linksHolder li {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.linksHolder li:hover {
+  color: #1db7ef;
+  transform: rotate(5deg) scale(1.1);
+}
+
+.linksHolder li:hover {
+  animation: bounce 0.5s ease-in-out;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .mobileMenu {
+    display: block;
+  }
+
+  .mobileMenuContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@keyframes wobble {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20%,
+  60% {
+    transform: translateX(-5px);
+  }
+  40%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+
+.logo {
+  align-items: left;
+  justify-content: left;
+  display: flex;
+}
+
+.navtext {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #0097b2;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  text-shadow: 0 0 10px rgb(69, 232, 253), 0 0 10px #fff, 0 0 20px #fff;
+  box-shadow: 0 0 10px rgb(69, 232, 253), 0 0 10px #fff, 0 0 20px #fff;
+  transition-duration: 0.5s;
+}
+
+.announcing {
+  background-color: #cbf045;
+  padding: 10px;
+  border-radius: 5px;
+}
+.sliding {
+  white-space: nowrap;
+  padding-left: 80px;
+}

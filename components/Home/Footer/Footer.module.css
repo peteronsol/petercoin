@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Life+Savers:wght@400;700;800&display=swap");
+
+.main {
+  background: #0097b2;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+  min-height: 310px;
+}
+
+.container {
+  width: 80%;
+  margin: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  right: 0%;
+  bottom: unset;
+}
+
+.circleButton:hover {
+  transform: scale(1.1);
+}
+
+.circleButton:hover img {
+  opacity: 0.8;
+}
+
+.heading {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.8;
+  margin: 24px 0;
+  line-height: 1;
+  text-align: center;
+  align-items: center;
+  font-family: "Lexend", sans-serif; /* Apply Lexend font to the card content */
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headings {
+  font-weight: 800;
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.circleButton {
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .headings {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+}

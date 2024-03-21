@@ -1,0 +1,24 @@
+{
+  "name": "peter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "framer-motion": "^11.0.3",
+    "gsap": "^3.12.5",
+    "next": "14.1.0",
+    "next-reveal": "^1.0.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.4",
+    "react-icons": "^5.0.1",
+    "react-intersection-observer": "^9.6.0",
+    "react-scroll": "^1.9.0"
+  }
+}
