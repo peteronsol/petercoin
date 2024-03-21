@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   min-height: 680px;
   width: 100%;
   background: linear-gradient(to bottom, #28a4c880, #0097b2);
@@ -36,15 +36,16 @@
 
 .peter {
   display: flex;
-  justify-content: right;
-  align-items: right;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .ptext {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
   border-radius: 10px;
   font-family: "Protest Riot", sans-serif;
@@ -62,8 +63,8 @@
   font-weight: 300;
   font-style: normal;
   color: #ffffff;
-  font-size: 30px;
-  margin-left: 120px;
+  font-size: 36px;
+  margin-left: 90px;
 }
 
 @media screen and (max-width: 1200px) {
