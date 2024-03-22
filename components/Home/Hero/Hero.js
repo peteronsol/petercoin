@@ -22,7 +22,7 @@ const Hero = () => {
 
         <div className={styles.iconContainer}>
           <a
-            href="https://beta.pinksale.finance/solana/launchpad/61Fdd5gzrZYdoEXV8Fwpmk9bptAMqmYe6Rv5AUJ4EfAa"
+            href="https://t.me/petersonsol/3902"
             target="_blank"
             className={styles.button}
           >
