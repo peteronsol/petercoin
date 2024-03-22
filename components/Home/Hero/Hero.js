@@ -26,7 +26,7 @@ const Hero = () => {
             target="_blank"
             className={styles.button}
           >
-            Buy On Pinksale
+            Buy Presale
           </a>
           <a
             href="https://t.me/griffinonsolana"
