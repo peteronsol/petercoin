@@ -45,12 +45,9 @@ const Hero = () => {
       >
         <Image
           src="/assets/images/peterlogo.png"
+          className={styles.peterlogo}
           width={450}
           height={450}
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
         ></Image>
       </div>
     </section>

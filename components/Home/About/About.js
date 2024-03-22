@@ -36,12 +36,8 @@ const About = () => {
             className={styles.img}
             src="/assets/images/peter-bull.png"
             alt="Discord"
-            width={600}
-            height={600}
-            style={{
-              width: "100%",
-              height: "auto",
-            }}
+            width={450}
+            height={450}
           />
         </div>
         <div

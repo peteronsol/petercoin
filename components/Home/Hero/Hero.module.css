@@ -93,6 +93,11 @@
 }
 
 @media screen and (max-width: 760px) {
+  .peterlogo {
+    height: 220px;
+    width: 220px;
+  }
+
   .main {
     min-height: 500px;
     flex-direction: column;
