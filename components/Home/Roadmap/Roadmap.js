@@ -53,7 +53,7 @@ const Roadmap = () => {
               data-aos-easing="linear"
               className={styles.cardContent}
             >
-              • Phase 1: Presale 500 SOL <br></br>• Phase 2: Vibe and HODL
+              • Phase 1: Presale 400 SOL <br></br>• Phase 2: Vibe and HODL
               <br></br>• Phase 3: $Peter Coin Takeover
               <br></br> <br></br> No bullshit, it’s that simple.{" "}
             </div>
