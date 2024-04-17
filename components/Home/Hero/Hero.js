@@ -29,7 +29,7 @@ const Hero = () => {
             Buy Presale
           </a>
           <a
-            href="https://t.me/griffinonsolana"
+            href="https://t.me/peteronsols"
             target="_blank"
             className={styles.joinbutton}
           >

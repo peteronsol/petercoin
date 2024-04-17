@@ -47,7 +47,7 @@ const Footer = () => {
             data-aos-duration="1000"
             target="_blank"
             rel="noreferrer"
-            href="https://t.me/griffinonsolana"
+            href="https://t.me/peteronsols"
             title="Join our Telegram"
           >
             <Image
