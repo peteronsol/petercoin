@@ -38,7 +38,7 @@
   text-align: center;
   align-items: center;
   font-family: "Lexend", sans-serif !important; /* Apply Lexend font to the card content */
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -49,7 +49,7 @@
   text-align: center;
   position: relative;
   font-family: "Lexend", sans-serif !important;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
