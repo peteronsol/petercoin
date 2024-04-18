@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Life+Savers:wght@400;700;800&display=swap");
 .main {
   position: relative;
   display: flex;
@@ -59,7 +60,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lexend", sans-serif; /* Apply Lexend font to the card content */
   font-weight: 300;
   font-style: normal;
   color: #ffffff;
@@ -142,6 +143,8 @@
   display: inline-block;
   background-color: #ffffff;
   border: none;
+  font-family: "Lexend", sans-serif; /* Apply Lexend font to the card content */
+  font-weight: 300;
   color: black;
   text-align: center;
   text-decoration: none;
@@ -165,6 +168,9 @@
   color: white;
   text-align: center;
   text-decoration: none;
+  font-family: "Lexend", sans-serif; /* Apply Lexend font to the card content */
+  font-weight: 300;
+  font-style: normal;
   font-size: 16px;
   padding: 10px 24px;
   cursor: pointer;

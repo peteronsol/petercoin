@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Life+Savers:wght@400;700;800&display=swap");
+
 .main {
   display: block;
   justify-content: center;
@@ -28,14 +30,14 @@
   text-align: center;
   color: #fff;
   font-size: 70px;
-  font-family: "Patua One", serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .textBox {
   text-align: center;
-  font-family: "Georgia", serif;
+  font-family: "Lexend", sans-serif;
   font-weight: bold;
   font-size: 70px;
   color: #fff;
@@ -47,7 +49,7 @@
   color: #fff;
   text-align: center;
   position: relative;
-  font-family: "Patua One", serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -66,9 +68,12 @@
 .cardContent {
   padding: 20px 20px !important;
   display: flex;
-  font-size: 28px;
+  font-size: 26px;
   margin-bottom: 10px;
   line-height: 1.4;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #fff;
   text-align: center;
 }

@@ -64,7 +64,7 @@ const Footer = () => {
           data-aos-duration="1000"
           className={styles.heading}
         >
-          $peter coin has no association with FOX/Disney or the writers of
+          $PETER coin has no association with FOX/Disney or the writers of
           Family Guy. <br></br>
           This token is simply paying homage to a character/meme we all love and
           recognize.
