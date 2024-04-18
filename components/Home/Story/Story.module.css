@@ -8,14 +8,14 @@
   min-height: 800px;
   height: auto;
   width: 100vw;
-  padding: 40px 0;
+  padding: 40px 0 0 0;
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 4%;
+  margin: 4% 4% 0 4%;
 }
 
 .content {
@@ -166,7 +166,7 @@
   .peterimg {
     display: flex;
     justify-content: center; /* Center horizontally */
-    margin-bottom: 5%; /* Adjust margin as needed */
+    /* margin-bottom: 5%; */
   }
 
   .titleBox {

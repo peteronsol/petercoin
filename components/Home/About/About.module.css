@@ -52,14 +52,17 @@
 }
 
 .imgContainer {
-  perspective: 400px;
+  /* perspective: 400px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .img {
   max-width: 100%;
   border-radius: 20px;
   display: block;
-  transform: rotateY(20deg);
+  /* transform: rotateY(20deg); */
   transform-origin: 50% 50%;
   transition: transform 0.3s ease-in-out;
 }

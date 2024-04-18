@@ -26,7 +26,7 @@ const Hero = () => {
             target="_blank"
             className={styles.button}
           >
-            Buy Presale
+            Launching soon
           </a>
           <a
             href="https://t.me/peteronsols"

@@ -28,6 +28,9 @@
   text-overflow: ellipsis;
   font-family: "Lexend", sans-serif !important; /* Apply Life Savers font to the heading */
 }
+.gapdown {
+  margin-top: 30px;
+}
 
 .headingHolder {
   display: flex;
