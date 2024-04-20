@@ -66,7 +66,7 @@ const Buy = () => {
               <div>
                 <Image
                   className={styles.buyimages}
-                  src="/assets/images/wallet.png"
+                  src="/assets/images/wallet1.png"
                   width={100}
                   height={100}
                   alt="buy peter"
@@ -96,7 +96,7 @@ const Buy = () => {
               <div>
                 <Image
                   className={styles.buyimages}
-                  src="/assets/images/solcart.png"
+                  src="/assets/images/solcart1.png"
                   width={100}
                   height={100}
                   alt="buy peter"
@@ -122,7 +122,7 @@ const Buy = () => {
               <div>
                 <Image
                   className={styles.buyimages}
-                  src="/assets/images/dex.png"
+                  src="/assets/images/dex1.png"
                   width={100}
                   height={100}
                   alt="buy peter"
@@ -148,7 +148,7 @@ const Buy = () => {
               <div>
                 <Image
                   className={styles.buyimages}
-                  src="/assets/images/swap.png"
+                  src="/assets/images/swap1.png"
                   width={100}
                   height={100}
                   alt="buy peter"
