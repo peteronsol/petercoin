@@ -53,9 +53,49 @@ const Roadmap = () => {
               data-aos-easing="linear"
               className={styles.cardContent}
             >
-              • Phase 1: Presale 400 SOL <br></br>• Phase 2: Vibe and HODL
-              <br></br>• Phase 3: $Peter Coin Takeover
-              <br></br> <br></br> No bullshit, it’s that simple.{" "}
+              <div className="content">
+                <p>
+                  <strong>
+                    Community Growth:
+                    <br />
+                  </strong>{" "}
+                  Organically reached 1k members on Telegram, Instagram, and
+                  Twitter.
+                </p>
+                <p>
+                  <strong>
+                    Presale Goal:
+                    <br />
+                  </strong>{" "}
+                  Targeted 400 SOLS, currently raised 300 SOLS.
+                </p>
+                <p>
+                  <strong>
+                    Upcoming Launch:
+                    <br />
+                  </strong>{" "}
+                  Hiring Kols, Influencers pushing towards $1m - $5m (Airdrop
+                  season)
+                  <br />
+                  Launching NFT collection
+                  <br />
+                  Getting in Real life PETER in. ROB franzese
+                </p>
+                <p>
+                  <strong>
+                    Exciting News:
+                    <br />
+                  </strong>{" "}
+                  Getting in Real life PETER in. ROB franzese
+                </p>
+                <p>
+                  <strong>
+                    Future Goal:
+                    <br />
+                  </strong>{" "}
+                  Moving towards a $100m target🚀🚀
+                </p>
+              </div>
             </div>
           </div>
         </div>
