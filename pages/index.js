@@ -1,6 +1,14 @@
 import React from "react";
 import Head from "next/head";
-import { Hero, About, Story, Roadmap, Buy, Footer } from "../components/Home";
+import {
+  Hero,
+  About,
+  Story,
+  Roadmap,
+  Buy,
+  Footer,
+  Phases,
+} from "../components/Home";
 import { Navbar } from "../components";
 import styles from "../styles/Home.module.css";
 
@@ -32,6 +40,7 @@ const Home = () => {
         <About />
         <Story />
         <Roadmap />
+        {/* <Phases /> */}
         <Buy />
         <Footer />
       </main>

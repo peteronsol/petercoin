@@ -56,44 +56,41 @@ const Roadmap = () => {
               <div className="content">
                 <p>
                   <strong>
-                    Community Growth:
+                    Phase 1
                     <br />
                   </strong>{" "}
-                  Organically reached 1k members on Telegram, Instagram, and
-                  Twitter.
+                  Growing organically 1k members on Telegram, Instagram, Twitter
                 </p>
                 <p>
                   <strong>
-                    Presale Goal:
+                    Phase 2
                     <br />
                   </strong>{" "}
-                  Targeted 400 SOLS, currently raised 300 SOLS.
+                  Presale goal 400 SOLS - Raised 300 SOLS.
                 </p>
                 <p>
                   <strong>
-                    Upcoming Launch:
+                    Phase 3
                     <br />
                   </strong>{" "}
-                  Hiring Kols, Influencers pushing towards $1m - $5m (Airdrop
-                  season)
-                  <br />
+                  Launch : Hiring Kols, Influencers pushing towards $5m - $10m
+                  (Airdrop season)
+                </p>
+                <p>
+                  <strong>
+                    Phase 4
+                    <br />
+                  </strong>{" "}
                   Launching NFT collection
                   <br />
                   Getting in Real life PETER in. ROB franzese
                 </p>
                 <p>
                   <strong>
-                    Exciting News:
+                    Phase 5
                     <br />
                   </strong>{" "}
-                  Getting in Real life PETER in. ROB franzese
-                </p>
-                <p>
-                  <strong>
-                    Future Goal:
-                    <br />
-                  </strong>{" "}
-                  Moving towards a $100m target🚀🚀
+                  Towards $100m goal 🚀🚀
                 </p>
               </div>
             </div>
