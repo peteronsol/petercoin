@@ -1,18 +1,19 @@
 import styles from "./Roadmap.module.css";
 import { useState } from "react";
 import Image from "next/image";
+
 const Roadmap = () => {
   const [selectedPhase, setSelectedPhase] = useState(0);
   const phases = [
     {
       title: "Phase 1",
       description:
-        " Growing organically 1k members on Telegram, Instagram, Twitter",
+        "Growing organically 1k members on Telegram, Instagram, Twitter",
       image: "/assets/images/phase1.png",
     },
     {
       title: "Phase 2",
-      description: "Presale goal 400 SOLS - Raised 300 SOLS. ",
+      description: "Presale goal 400 SOLS - Raised 300 SOLS.",
       image: "/assets/images/phase2.png",
     },
     {
@@ -61,7 +62,7 @@ const Roadmap = () => {
         href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap"
         rel="stylesheet"
       ></link>
-      <div style={LineStyle}> </div>
+      <div style={LineStyle}></div>
       <div className={styles.headingHolder}>
         <h1
           data-aos="fade-in"
@@ -72,89 +73,6 @@ const Roadmap = () => {
           Roadmap
         </h1>
       </div>
-      {/* <div className={styles.container}>
-        <div
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          className={styles.peterimg}
-        >
-          <Image
-            className={styles.peterimgs}
-            src="/assets/images/Peterchart.png"
-            alt="peter coin"
-            width={400}
-            height={410}
-          />
-        </div>
-        <div className={styles.content}>
-          <div
-            data-aos="fade-down"
-            data-aos-duration="1000"
-            className={styles.card}
-          >
-            <div
-              data-aos="zoom-out-up"
-              data-aos-duration="1000"
-              data-aos-easing="linear"
-              className={styles.cardContent}
-            >
-              <div className="content">
-                <p>
-                  <strong>
-                    Phase 1
-                    <br />
-                  </strong>{" "}
-                  Growing organically 1k members on Telegram, Instagram, Twitter
-                </p>
-                <p>
-                  <strong>
-                    Phase 2
-                    <br />
-                  </strong>{" "}
-                  Presale goal 400 SOLS - Raised 300 SOLS.
-                </p>
-                <p>
-                  <strong>
-                    Phase 3
-                    <br />
-                  </strong>{" "}
-                  Launch : Hiring Kols, Influencers pushing towards $5m - $10m
-                  (Airdrop season)
-                </p>
-                <p>
-                  <strong>
-                    Phase 4
-                    <br />
-                  </strong>{" "}
-                  Launching NFT collection
-                  <br />
-                  Getting in Real life PETER in. ROB franzese
-                </p>
-                <p>
-                  <strong>
-                    Phase 5
-                    <br />
-                  </strong>{" "}
-                  Towards $100m goal 🚀🚀
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className={styles.peterimg}
-          data-aos="fade-down-left"
-          data-aos-duration="1000"
-        >
-          <Image
-            className={styles.peterimgs}
-            src="/assets/images/Peter1.png"
-            alt="peter coin"
-            width={400}
-            height={400}
-          />
-        </div>
-      </div> */}
       <div className={styles.horizontalslidertimeline}>
         <div className={styles.timeline}>
           {phases.map((phase, index) => (
@@ -196,7 +114,9 @@ const Roadmap = () => {
                 <p className={styles.carddescription}>
                   {phases[selectedPhase].description}
                   <br />
-                  <span className={styles.completed}>Completed ✔️</span>
+                  {selectedPhase < 2 && (
+                    <span className={styles.completed}>Completed ✔️</span>
+                  )}
                 </p>
               </div>
             </div>
