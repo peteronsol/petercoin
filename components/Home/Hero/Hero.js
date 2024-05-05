@@ -26,7 +26,7 @@ const Hero = () => {
             target="_blank"
             className={styles.button}
           >
-            Launching soon
+            Launching 05/05/2024
           </a>
           <a
             href="https://t.me/peteronsols"

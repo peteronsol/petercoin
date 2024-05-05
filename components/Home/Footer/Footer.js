@@ -58,6 +58,22 @@ const Footer = () => {
               height={60}
             />
           </a>
+          <a
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/peteronsol"
+            title="Join our Telegram"
+          >
+            <Image
+              className={styles.circleButton}
+              src="/assets/images/insta.png"
+              alt="telegram"
+              width={60}
+              height={60}
+            />
+          </a>
         </div>
         <p
           data-aos="zoom-out"

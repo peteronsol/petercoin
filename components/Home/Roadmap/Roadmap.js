@@ -29,7 +29,7 @@ const Roadmap = () => {
     },
     {
       title: "Phase 5",
-      description: "Towards $100m goal 🚀🚀",
+      description: "Towards $100m+ goal 🚀🚀",
       image: "/assets/images/phase5.png",
     },
   ];
@@ -195,6 +195,8 @@ const Roadmap = () => {
                 </h2>
                 <p className={styles.carddescription}>
                   {phases[selectedPhase].description}
+                  <br />
+                  <span className={styles.completed}>Completed ✔️</span>
                 </p>
               </div>
             </div>
